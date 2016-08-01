@@ -21,7 +21,7 @@ if (!preg_match($regexp, $requestUri)) {
 try  {
     $uri = new Uri($requestUri);
 
-    $publicDir = realpath(dirname(__FILE__) . '/public/');
+    $publicDir = realpath(dirname(__FILE__) . '/../public/');
 
     $downloader = new AssetDownloader();
     $downloader->from('https://assetsnffrgf-a.akamaihd.net')
@@ -29,9 +29,8 @@ try  {
 
     $downloader->download($uri);
 
-    // $second = 1000000;
-    // usleep($second / 10);
-    sleep(1);
+    // slow on purpose
+    sleep(5);
     header("location: $requestUri");
     exit();
 } catch (League\Flysystem\FileExistsException $e) {

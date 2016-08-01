@@ -3,7 +3,7 @@ error_reporting(E_ALL);
 
 require_once '../vendor/autoload.php';
 
-$continue = require_once "../asset_fallback.php";
+$continue = require_once "../app/asset_fallback.php";
 
 if ($continue ===  false) {
     return false;
