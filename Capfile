@@ -9,6 +9,15 @@ require 'capistrano/setup'
 # Include default deployment tasks
 require 'capistrano/deploy'
 
+# https://github.com/capistrano-plugins/capistrano-ssh-doctor
+require 'capistrano/ssh_doctor'
+
+# https://github.com/mattbrictson/airbrussh
+require "airbrussh/capistrano"
+
+# https://github.com/capistrano/composer/
+require 'capistrano/composer'
+
 # Include tasks from other gems included in your Gemfile
 #
 # For documentation on these, see for example:
