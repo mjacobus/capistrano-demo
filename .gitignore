@@ -1,2 +1,4 @@
 vendor
 public/assets
+.vagrant
+log
