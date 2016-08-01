@@ -1,0 +1,6 @@
+{
+    "require": {
+        "koine/asset-downloader": "^1.0",
+        "zendframework/zend-diactoros": "^1.3"
+    }
+}
