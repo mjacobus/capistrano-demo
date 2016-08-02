@@ -28,7 +28,8 @@ set :deploy_to, '/var/www/apps/app_demo'
 # Default value for linked_dirs is []
 # set :linked_dirs, fetch(:linked_dirs, []).push('log', 'tmp/pids', 'tmp/cache', 'tmp/sockets', 'vendor/bundle', 'public/system')
 set :linked_dirs, fetch(:linked_dirs, []).push(
-  'public/assets'
+  'public/assets',
+  'log/views'
 )
 
 # Default value for default_env is {}
