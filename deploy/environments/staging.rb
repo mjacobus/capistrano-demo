@@ -1,3 +1,11 @@
+server 'capistrano.demo',
+  roles: %w{web},
+  ssh_options: {
+    auth_methods: %w(publickey),
+    user: 'deploy',
+    keys: []
+  }
+
 # server-based syntax
 # ======================
 # Defines a single server with a list of roles and multiple properties.
