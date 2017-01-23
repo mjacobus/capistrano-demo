@@ -1,5 +1,5 @@
 GEM
-  remote: htts://rubygems.org/
+  remote: https://rubygems.org/
   specs:
     airbrussh (1.1.0)
       sshkit (>= 1.6.1, != 1.7.0)
@@ -30,4 +30,4 @@ DEPENDENCIES
   capistrano-ssh-doctor (~> 1.0)
 
 BUNDLED WITH
-   1.11.2
+   1.13.6
