@@ -21,7 +21,7 @@ $pageViews = require_once "../app/page_views.php";
     <title>Capistrano Demo</title>
 </head>
 <body>
-    <h1>Capistrano Deployment Demo</h1>
+    <h1>New title</h1>
     <p>This page has been seen <?php echo $pageViews; ?> times</p>
     <img src="/assets/m/ijwsd/502014250/ijwsd_id-502014250.art/502014250_univ_pnr_lg.jpg" alt="Downloading">
     <img src="/assets/m/ijwsd/502014291/ijwsd_id-502014291.art/502014291_univ_pnr_lg.jpg" alt="Downloading">
